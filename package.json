@@ -1,0 +1,26 @@
+{
+  "name": "voterchain2",
+  "version": "1.0.0",
+  "description": "A blockchain based ivoting system",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankmetha/voterchain2.git"
+  },
+  "keywords": [
+    "blockchain",
+    "ivoting"
+  ],
+  "author": "mayank metha d",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mayankmetha/voterchain2/issues"
+  },
+  "homepage": "https://github.com/mayankmetha/voterchain2#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
