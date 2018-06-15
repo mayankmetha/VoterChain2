@@ -16,9 +16,23 @@ var log = (msg) => {
     console.log(chalk.bold.white(msg));
 }
 
+var socketInfo = (msg) => {
+    console.log(chalk.bold.blue(msg));
+}
+
+var socketError = (msg) => {
+    console.log(chalk.bold.cyan(msg));
+}
+
+var message = (msg) => {
+    console.log(chalk.bold.magenta(msg));
+}
 module.exports = {
     error: error,
     warn: warn,
     info: info,
-    log: log
+    log: log,
+    socketInfo: socketInfo,
+    socketError: socketError,
+    message: message
 };
